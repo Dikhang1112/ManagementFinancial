@@ -19,3 +19,51 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+# Thư mục build (tạo tự động)
+build/
+
+# Tệp cấu hình cá nhân của Android Studio
+.idea/
+*.iml
+
+# Tệp cấu hình của môi trường
+local.properties
+
+# Tệp tạm thời của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Tệp nhật ký
+*.log
+
+# Tệp đầu ra
+*.apk
+*.ap_
+*.aab
+
+# Tệp của Gradle
+.gradle/
+**/build/
+
+# Caches IntelliJ IDEA
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/codeStyles/
+.idea/codeStyles/Project.xml
+
+# Tệp cài đặt hệ điều hành Linux/Unix/Mac
+*.swp
+*.lock
+*.pid
+*.seed
+
+# Tệp cấu hình của Windows
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated Java classes
+*/gen/
